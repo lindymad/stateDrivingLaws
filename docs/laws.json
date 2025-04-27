@@ -115,9 +115,7 @@
         "WV": {"legal": true, "note": "West Virginia Code §17C-3-5 (c)(2. No definition of red arrow; therefore, right on red arrow permitted under definition of red signal.)", "sources": ["https://code.wvlegislature.gov/17C-3-5/"]},
         "WI": {"legal": true, "note": "Wisconsin State Legislature - 346.37 (1)(c) 3.. No definition of red arrow; therefore, right on red arrow permitted under definition of red signal.", "sources": ["https://docs.legis.wisconsin.gov/statutes/statutes/346/vi/37"]},
         "WY": {"legal": true, "note": "Wyoming Statutes § 31-5-403 (a)(iii)(C)", "sources": ["https://codes.findlaw.com/wy/title-31-motor-vehicles/wy-st-sect-31-5-403/"]}
-
-      },
-      "refnotes" : ["https://www.reddit.com/r/driving/comments/1hwk9kv/anyone_have_a_lists_of_states_where_its_legal_to/m61xxi6/"]
+      }
     },
      {
       "title": "Left Turn on Red (One Way Street to a One Way Street)",
@@ -227,7 +225,6 @@
         "WY": {"legal": false, "note": "Wyoming Statutes § 31-5-403 (a)(iii)(C)", "sources": ["https://codes.findlaw.com/wy/title-31-motor-vehicles/wy-st-sect-31-5-403/"]}
       }
     }
-
   ],
   "states": [
     {"name": "Alabama", "abbreviation": "AL"},

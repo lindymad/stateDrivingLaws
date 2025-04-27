@@ -14,21 +14,25 @@ a {
 }
 
 #laws {
-  overflow:visible;
+  overflow: visible;
   display: table !important;
+
   a:not(nav a):before {
     width: 0.8em;
     height: 2px;
     bottom: 10px;
     left: 10px;
 
-}
+  }
+
   th {
     text-transform: none;
   }
+
   td:not(:first-child) {
-    padding:0;
+    padding: 0;
   }
+
   td {
 
     a {
@@ -71,13 +75,16 @@ a {
     }
   }
 }
+
 h1.main {
   margin-right: 16px;
 }
+
 .github {
   position: absolute;
   top: 5px;
   right: 5px;
+
   img {
     border: 0;
     transition: none;
@@ -86,21 +93,25 @@ h1.main {
     height: 16px;
   }
 }
- a.github:not(nav a):before {
-   background: none;
- }
- a.github[target="_blank"]::after {
-    display: none;
- }
+
+a.github:not(nav a):before {
+  background: none;
+}
+
+a.github[target="_blank"]::after {
+  display: none;
+}
 
 h1 {
   margin-top: 0;
 }
+
 footer {
   border-top: 1px solid #ccc;
   margin-top: 0.5rem;
   padding-top: 0.5rem;
 }
+
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -127,27 +138,34 @@ footer {
     form {
       display: inline-block;
     }
+
     .buttons {
       display: flex;
       gap: 1rem;
       margin-top: 1rem;
     }
+
     h1 {
       margin-top: 0;
       font-size: 1.4rem;
     }
+
     .legality {
-      margin-bottom:0;
+      margin-bottom: 0;
     }
+
     .legality .legal {
       color: var(--legal);
     }
+
     .legality .illegal {
       color: var(--illegal);
     }
+
     .note {
       font-style: italic;
     }
+
     .general-note {
       font-style: italic;
       font-size: 0.8rem;
@@ -156,9 +174,11 @@ footer {
     .asterisk-note {
       font-weight: bold;
     }
+
     .asterisk-note::before {
       content: '* ';
     }
+
     .sourcePos {
       display: inline-block;
       margin-left: 0.5em;
