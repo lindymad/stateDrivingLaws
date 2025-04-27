@@ -69,7 +69,11 @@ h1 {
 footer {
   border-top: 1px solid #ccc;
   margin-top: 0.5rem;
-  padding-top: 0.5rem; }
+  padding-top: 0.5rem;
+  font-size: 0.75rem; }
+  footer .separator {
+    display: inline-block;
+    margin: 0 0.5rem; }
 
 .modal {
   display: none;
