@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>State Driving Laws Comparison</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/digitallytailored/classless@latest/classless.min.css">
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+<h1 class="main">State Driving Laws Comparison</h1>
+<p><strong>This site is for information only and cannot be guaranteed to contain up-to-date information.</strong><br>If you notice incorrect information, please report it by clicking on the law for that state and then click the "Report Incorrect Information" button.</p>
+<p>Click on a law for a state to see more information and a link to the source.<br>If you wish to add information about a law in a specific state, click on the law for that state and then click the "Add Information" button.</p>
+<a class="github" href="https://github.com/lindymad/stateDrivingLaws" title="View on Github" target="_blank"><img alt="Github Logo" src="github-mark.svg"></a>
+<table id="laws">
+    <thead>
+    <tr>
+        <th>&nbsp;</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+<div id="infoBox" class="modal close-modal">
+    <div class="modal-content">
+        <span class="close-modal close-modal-icon">&times;</span>
+        <h1></h1>
+        <p class="legality"></p>
+        <p class="general-note">Note that there may be local laws that override the state laws.<br>Please read the full law to understand any restrictions or requirements pertaining to this action.</p>
+        <p class="asterisk-note"></p>
+        <p class="note"></p>
+        <div class="sources"></div>
+        <div class="buttons">
+            <form class="add-data" action="https://docs.google.com/forms/d/e/1FAIpQLSeFrbvthPFhmoevD4pahiaf5SbeZlW2HlReqsW-JckOHUY2AA/viewform" method="get" target="_blank">
+                <input type="hidden" name="usp" value="pp_url">
+                <input type="hidden" class="feedback-state" name="entry.647556878" value="">
+                <input type="hidden" class="feedback-law" name="entry.159670589" value="">
+                <button class="info add-data" type="submit">Add Information</button>
+            </form>
+            <form class="report-data" action="https://docs.google.com/forms/d/e/1FAIpQLSc6Mg1gwQSp1Th_C9yPWEubbXZPXXqYGcN2ooTc0rNZIQaqmA/viewform" method="get" target="_blank">
+                <input type="hidden" name="usp" value="pp_url">
+                <input type="hidden" class="feedback-state" name="entry.1127374813" value="">
+                <input type="hidden" class="feedback-law" name="entry.1129069364" value="">
+                <button class="danger report-data" type="submit">Report Incorrect Information</button>
+            </form>
+        </div>
+    </div>
+</div>
+<footer>CSS by <a href="https://github.com/DigitallyTailored/Classless.css" target="_blank">Classless.css</a></footer>
+<script src="index.js"></script>
+</body>
+</html>

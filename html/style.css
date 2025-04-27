@@ -1,0 +1,146 @@
+:root {
+  --legal: green;
+  --illegal: red; }
+
+thead {
+  position: sticky;
+  top: 0;
+  z-index: 1; }
+
+a {
+  cursor: pointer; }
+
+#laws {
+  overflow: visible;
+  display: table !important; }
+  #laws a:not(nav a):before {
+    width: 0.8em;
+    height: 2px;
+    bottom: 10px;
+    left: 10px; }
+  #laws th {
+    text-transform: none; }
+  #laws td:not(:first-child) {
+    padding: 0; }
+  #laws td a {
+    display: inline-block;
+    padding: calc(var(--spacing-base) * .75);
+    color: #888;
+    width: 100%;
+    height: 100%; }
+  #laws td a.legal-asterisk::after {
+    content: ' *'; }
+  #laws td a:not(nav a):before {
+    background: #888; }
+  #laws td.legal a {
+    color: var(--legal); }
+  #laws td.legal a:not(nav a):before {
+    background: var(--legal);
+    width: 1em; }
+  #laws td.illegal a {
+    color: var(--illegal); }
+  #laws td.illegal a:not(nav a):before {
+    background: var(--illegal);
+    width: 0.9em; }
+
+h1.main {
+  margin-right: 16px; }
+
+.github {
+  position: absolute;
+  top: 5px;
+  right: 5px; }
+  .github img {
+    border: 0;
+    transition: none;
+    box-shadow: none;
+    width: 16px;
+    height: 16px; }
+
+a.github:not(nav a):before {
+  background: none; }
+
+a.github[target="_blank"]::after {
+  display: none; }
+
+h1 {
+  margin-top: 0; }
+
+footer {
+  border-top: 1px solid #ccc;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem; }
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  /* Modal Content/Box */
+  /* The Close Button */ }
+  .modal .modal-content {
+    background-color: var(--body-bg);
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+    position: relative;
+    border-radius: 0.5rem; }
+    .modal .modal-content form {
+      display: inline-block; }
+    .modal .modal-content .buttons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem; }
+    .modal .modal-content h1 {
+      margin-top: 0;
+      font-size: 1.4rem; }
+    .modal .modal-content .legality {
+      margin-bottom: 0; }
+    .modal .modal-content .legality .legal {
+      color: var(--legal); }
+    .modal .modal-content .legality .illegal {
+      color: var(--illegal); }
+    .modal .modal-content .note {
+      font-style: italic; }
+    .modal .modal-content .general-note {
+      font-style: italic;
+      font-size: 0.8rem; }
+    .modal .modal-content .asterisk-note {
+      font-weight: bold; }
+    .modal .modal-content .asterisk-note::before {
+      content: '* '; }
+    .modal .modal-content .sourcePos {
+      display: inline-block;
+      margin-left: 0.5em;
+      margin-right: 0.5ch; }
+  .modal .close-modal-icon {
+    color: #aaa;
+    position: absolute;
+    top: -7px;
+    right: 7px;
+    font-size: 1.5em;
+    font-weight: bold; }
+  .modal .close-modal-icon:hover,
+  .modal .close-modal-icon:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
