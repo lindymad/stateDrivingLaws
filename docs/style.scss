@@ -2,7 +2,13 @@
   --legal: green;
   --illegal: red;
 }
+span.legal {
+  color: var(--legal);
+}
 
+span.illegal {
+  color: var(--illegal);
+}
 thead {
   position: sticky;
   top: 0;
